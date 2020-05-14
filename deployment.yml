@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
        - name: lifecycle-service
-         image: cratekube/lifecycle-service:1.0.0
+         image: code4dc/lifecycle-service:1.0.0
          ports:
          - containerPort: 9000
          volumeMounts:

@@ -31,8 +31,8 @@ jobs:
   componentDeploymentJob: ${DEPLOYMENT_JOB_EXECUTION_FREQUENCY:-5min}
 
 github:
-  orgApiRepoHome: ${GITHUB_ORG_API_REPO_HOME:-https://api.github.com/repos/cratekube}
-  orgBaseRawHome: ${GITHUB_ORG_RAW_HOME:-https://raw.githubusercontent.com/cratekube}
+  orgApiRepoHome: ${GITHUB_ORG_API_REPO_HOME:-https://api.github.com/repos/code4dc}
+  orgBaseRawHome: ${GITHUB_ORG_RAW_HOME:-https://raw.githubusercontent.com/code4dc}
 
 # Used for global cache key, github queries and kubectl retrieval purposes.
 # these keys coincide with both the repository names and the selector label names in each repositories deployment.yml.
